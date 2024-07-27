@@ -211,9 +211,10 @@ main > section{
 .section-title{
     font-size: 3rem;
     margin-bottom: 14px;
+    text-align: center;
 }
 .section-content{
-    width: 671px;
+    max-width: 671px;
     text-align: center;
     line-height: 24px;
 }

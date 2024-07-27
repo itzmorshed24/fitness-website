@@ -51,7 +51,14 @@
         backdrop-filter: blur(5px);
     }
     /* End of Header Responsive For Mobile Device */
-    /* motion: ; */
+
+    /* Habits section Responsive: ; */
+    .habits-images{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
 }
 
 
