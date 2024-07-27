@@ -1,0 +1,57 @@
+@media screen and (max-width: 576px) {
+    /* shared Styles */
+    .container{
+        padding: 0px 20px;
+    }
+    /* Navbar Section */
+
+    .nav-links {
+        display: none;
+        max-width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+    }
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .menu-toggle {
+        display: flex;
+        margin-left: 230px;
+    }
+/* Header Content  */
+    .header-content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #btn-download{
+        margin-left: 8px;
+        padding: 16px 20px;
+    }
+   .header-right-content{
+    margin-top: 300px;
+   }
+   .header-right-image{
+    transform: translate(-10%, -50%);
+    margin-left: 30px;
+    }
+    .free-videos{
+        top: -200px;
+        left: 190px;
+        padding-top: 10px;
+    }
+    .videos-title{
+        font-size: 1.875rem;
+    }
+    .video-tutorial{
+        top: -90px;
+        right: 0px;
+        backdrop-filter: blur(5px);
+    }
+    /* End of Header Responsive For Mobile Device */
+}
+
+
