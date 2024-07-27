@@ -4,7 +4,6 @@
         padding: 0px 20px;
     }
     /* Navbar Section */
-
     .nav-links {
         display: none;
         max-width: 100%;
@@ -52,6 +51,7 @@
         backdrop-filter: blur(5px);
     }
     /* End of Header Responsive For Mobile Device */
+    /* motion: ; */
 }
 
 
