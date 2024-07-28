@@ -27,11 +27,11 @@
         align-items: flex-start;
     }
     .btn-primary{
-        padding: 16px 20px;
+        padding: 16px 24px;
     }
     #btn-download{
-        margin-left: 2px;
-        padding: 16px 20px;
+        margin-left: 8px;
+        padding: 16px 24px;
     }
    .header-right-content{
     margin-top: 300px;
@@ -55,12 +55,24 @@
     }
     /* End of Header Responsive For Mobile Device */
 
-    /* Habits section Responsive: ; */
-    .habits-images{
+    /* Habits section Responsive: */
+    .habits-images, .runs, .bmi, .team-members, .footer-menu{
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
         align-items: center;
         justify-items: center;
+    }
+    .runs{
+        gap: 65px;
+    }
+    .calculator-chart{
+        margin-bottom: 40px;
+    }
+    .bmi{
+        gap:24px;
+    }
+    .item-1, .item-2,.item-3, .item-4, .item-5{
+        width: 100%;
     }
 }
 

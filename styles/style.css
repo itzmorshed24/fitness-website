@@ -243,3 +243,227 @@ main > section{
 .habits-image p{
     text-align: center;
 }
+
+/* Runs Section Start Here */
+.runs{
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    padding: 41px 32px 40px 54px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 265px;
+}
+.runs-left h2{
+    text-align: start;
+}
+.runs-left p{
+    margin: 14px 0px 34px 0px;
+    line-height: 24px;
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+}
+.runs-image{
+    border-radius: 18px;
+}
+/* End of Runs Section Area */
+
+/* bmi calculator */
+
+.bmi-calculator{
+    max-width: 671px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.bmi-calculator h2{
+    text-align: start;
+}
+.calculate-content{
+    line-height: 24px;
+    margin-top: 14px;
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+}
+/* End of bmi calculator */
+
+/* BMI Calculate */
+.bmi-bg{
+    background-color: rgba(34, 34, 34, 1);
+    padding: 52px 0px;
+}
+.bmi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 175px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .calculator-chart{
+    margin-right: 175px;
+    max-width: 577px;
+    margin: 0 auto;
+}
+.calculate-bmi{
+    max-width: 577px;
+    margin: 0 auto;
+} */
+table{
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+.table th{
+    font-size: 1rem;
+    font-weight: 500;
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+}
+
+/* end table */
+
+
+.bmi-title{
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 120%;
+}
+.bmi-content{
+    margin-top: 14px;
+    margin-bottom: 34px;
+    line-height: 24px;
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+}
+.item-1{
+    grid-area: height;
+}
+.item-2{
+    grid-area: kg;
+}
+.item-3{
+    grid-area: age;
+}
+.item-4{
+    grid-area: sex;
+}
+.item-5{
+    grid-area: select;
+}
+.bmi-info{
+    display: grid;
+    grid-template-areas:
+    'height kg'
+    'age sex'
+    'select select';
+    gap: 12px;
+    margin-top: 34px;
+}
+.iteam{
+    padding: 16px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-style: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+select{
+    color: rgba(255, 255, 255, 0.6);
+}
+#calculate-btn{
+    margin-top: 34px;
+}
+
+
+/* Start Herare Team section */
+.team-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.team-members{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap:20px;
+}
+.team-member{
+    position: relative;
+}
+.team-member div{
+    margin: 0;
+    padding: 0;
+}
+
+.trainer-title{
+    position: absolute;
+    bottom: 12px;
+    left: 19px;
+}
+.trainer-title h5{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.trainer-title p{
+    font-size: 0.875rem;
+    margin-top: 3px;
+}
+.team-trainer{
+    border-radius: 18px;
+    border-style: none;
+}
+/* End of Trainer Section */
+
+/* Start Footer Area */
+.footer-bg{
+    background-color: rgba(34, 34, 34, 1);
+    padding: 30px 0px;
+}
+#footer-title{
+    font-size: 4rem;
+}
+#footer-cnt{
+    font-size: 0.875rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 16px;
+}
+.footer-menu-1 > h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.footer-menu-1 > ul > li{
+    list-style: none;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+.footer-menu-1 > ul > li > a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 50px 0px;
+    gap: 50px;
+}
+.copyright{
+    display: block;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
