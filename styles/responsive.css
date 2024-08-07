@@ -13,13 +13,9 @@
         left: 0;
         z-index: 1;
     }
-    .nav-links li {
-        margin: 10px 0;
-        text-align: center;
-    }
     .menu-toggle {
         display: flex;
-        margin-left: 230px;
+        margin-left: auto;
     }
 /* Header Content  */
     .header-content{
@@ -34,7 +30,7 @@
         padding: 16px 24px;
     }
    .header-right-content{
-    margin-top: 300px;
+    margin-top: 18.75rem;
    }
    .header-right-image{
     transform: translate(-10%, -50%);
@@ -53,17 +49,30 @@
         right: 0px;
         backdrop-filter: blur(5px);
     }
-    /* End of Header Responsive For Mobile Device */
-
     /* Habits section Responsive: */
-    .habits-images, .runs, .bmi, .team-members, .footer-menu{
-        grid-template-columns: repeat(1,1fr);
+    .habits-images, 
+    .runs, 
+    .bmi, 
+    .team-members, 
+    .footer-menu,
+    .feature{
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
         justify-items: center;
     }
     .runs{
         gap: 65px;
+    }
+    .feature-card{
+        margin-bottom: 50px;
+    }
+    .icon-box{
+        transform: translate(-50%, -50%);
+        top: 0.4375rem;
+        left: 50%;
+        /* left: 8.0625rem;
+        top: -4.125rem; */
     }
     .calculator-chart{
         margin-bottom: 40px;
@@ -75,5 +84,3 @@
         width: 100%;
     }
 }
-
-
